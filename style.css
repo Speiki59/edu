@@ -22,6 +22,11 @@ li {
 }
 
 /* Временные рамки */
+h2 {
+  visibility: hidden;
+}
+
+
 .about h3 span {
   padding: 1px;
   background-color: rgb(204, 6, 48);
