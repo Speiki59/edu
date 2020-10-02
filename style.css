@@ -21,6 +21,8 @@ li {
 }
 
 /* Временные рамки */
+
+
 .booking button {
   font-size: 30px;
   background-color: lightcoral;
@@ -37,7 +39,7 @@ li {
 .booking form {
   padding: 100px 0;
   position: relative;
-  left: 50%;
+  margin: 0 auto;
 }
 
 /* Хeдер */
@@ -89,6 +91,10 @@ main section {
   flex-direction: column;
 }
 
+.about img {
+ 
+}
+
 .about article {
   display: flex;
   flex-direction: row;
@@ -100,3 +106,31 @@ main section {
   flex-direction: row-reverse;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Футер */
+
+footer {
+  margin: 25px 25px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer span {
+  align-self: center;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
