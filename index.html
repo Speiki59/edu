@@ -18,11 +18,11 @@
         <img src="img/logo.png" alt="logo" />
       </div>
       <!-- Меню -->
-      <nav class="manu">
+      <nav class="menu">
         <ul>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Забронировать</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#booking">Забронировать</a></li>
+          <li><a href="#contacts">Контакты</a></li>
         </ul>
       </nav>
     </header>
@@ -30,7 +30,7 @@
     <main>
       <h1>Футбольный манеж Матч-Арена</h1>
       <!-- Раздел "О нас" -->
-      <section class="about">
+      <section class="about" id="about">
         <h2>О нас</h2>
         <!-- Список преимуществ -->
         <ul>
@@ -104,14 +104,14 @@
       </section>
 
       <!-- Блок брони -->
-      <section class="booking">
+      <section class="booking" id="booking">
         <form action="https://vk.com" target="_blank">
           <button>Забронировать</button>
         </form>
       </section>
 
       <!-- Контакты -->
-      <section>
+      <section class="contacts" id="contacts">
         <div>
           <h2>Контакты</h2>
           <ul>
@@ -139,12 +139,20 @@
         </div>
       </section>
     </main>
-    
+
     <!-- Футер -->
     <footer>
       <div class="social">
-        <a href="https://vk.com/match_arena_perm"><img src="img/vk-logo.png" alt="Vkontakte" width="57px" height="57px"></a>
-        <a href="https://www.instagram.com/match_arena_ekb/"><img src="img/instagram-logo.png" alt="Instagram" width="57px" height="57px"></a>
+        <a href="https://vk.com/match_arena_perm"
+          ><img src="img/vk-logo.png" alt="Vkontakte" width="57" height="57"
+        /></a>
+        <a href="https://www.instagram.com/match_arena_ekb/"
+          ><img
+            src="img/instagram-logo.png"
+            alt="Instagram"
+            width="57"
+            height="57"
+        /></a>
       </div>
       <span>Мы в соц.сетях</span>
     </footer>

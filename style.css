@@ -1,9 +1,9 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-} */
+}
 
-@media screen and(max-width: 768px) {
+@media screen and (min-width: 768px) {
  
 }
 
@@ -21,23 +21,13 @@ li {
 }
 
 /* Временные рамки */
-header {
-  border: 1px solid lightgrey;
-}
-
-main {
-  border: 1px solid lightskyblue;
-}
-
-main section {
-  border: 1px solid seagreen;
-}
-
-main section article {
-  border: 1px solid red;
-}
-footer {
-  border: 1px solid lightpink;
+.booking button {
+  font-size: 30px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 0 grey;
 }
 
 .booking {
@@ -49,4 +39,64 @@ footer {
   position: relative;
   left: 50%;
 }
-/* Временные рамки */
+
+/* Хeдер */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 auto;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  color: brown;
+  border-bottom: 3px solid brown;
+}
+
+/* Контентная часть */
+main h1 {
+  margin: 30px 30px;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.about li:nth-child(2) article {
+  flex-direction: row-reverse;
+}
+
