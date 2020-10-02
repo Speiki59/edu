@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+/* Временные рамки */
+.booking button {
+  font-size: 30px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 0 grey;
+}
+
+.booking {
+  min-height: 50px;
+}
+
+.booking form {
+  padding: 100px 0;
+  position: relative;
+  left: 50%;
+}
+
+/* Хeдер */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 auto;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  color: brown;
+  border-bottom: 3px solid brown;
+}
+
+/* Контентная часть */
+main h1 {
+  margin: 30px 30px;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.about li:nth-child(2) article {
+  flex-direction: row-reverse;
+}
+
