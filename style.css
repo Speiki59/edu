@@ -21,9 +21,6 @@ li {
 }
 
 /* Временные рамки */
-
-
-
 h2 {
   visibility: hidden;
 }
@@ -42,7 +39,6 @@ article img {
 
 .booking button {
   font-size: 30px;
-  /* background-color: lightcoral; */
   background-image: linear-gradient(#cc0630 0%, #8f0222 75%, #6d0019 100%);
   color: #ffffff;
   border-radius: 10px;
@@ -105,6 +101,7 @@ main h1 {
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
+  line-height: 1em;
 }
 
 main section {
@@ -127,6 +124,8 @@ figcaption {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  
 }
 
 .about article div {
