@@ -22,6 +22,8 @@ li {
 
 /* Временные рамки */
 
+
+
 h2 {
   visibility: hidden;
 }
@@ -47,6 +49,12 @@ article img {
   cursor: pointer;
   padding: 10px;
   box-shadow: 5px 5px 5px 0 grey;
+}
+
+.booking button:hover {
+  background: white;
+  color: rgb(204, 6, 48);
+  border: 2px solid rgb(204, 6, 48);
 }
 
 .booking {
@@ -188,3 +196,4 @@ footer img:hover {
 button:active, button:focus {
   outline: none;
 }
+
