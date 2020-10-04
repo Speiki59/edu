@@ -145,6 +145,51 @@ figcaption {
   flex-direction: row-reverse;
 }
 
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.price div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 20px 20px;
+  min-width: 150px;
+  min-height: 200px;
+  border: 1px solid #e5e5e5;
+  box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 5px;
+   vertical-align: midcdle;
+   text-align: center;
+  
+}
+
+.price b {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2.5em;
+  font-weight: 700;
+  
+}
+
+.price span {
+  font-size: 0.75em;
+  
+}
+
+.price p {
+  color: rgb(204, 6, 48);;
+}
+
+.price div:hover {
+  transform: scale(1.1);
+}
+
 .contacts {
   display: flex;
   flex-direction: row;
