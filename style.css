@@ -23,6 +23,7 @@ h2 {
   visibility: hidden;
 }
 
+
 article img {
   border-radius: 10px;
 }
@@ -156,7 +157,7 @@ figcaption {
 .price div {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
   margin: 20px 20px;
   min-width: 150px;
@@ -188,6 +189,11 @@ figcaption {
 
 .price div:hover {
   transform: scale(1.1);
+  transition: all 500ms;
+}
+
+.price div {
+  transition: all 500ms;
 }
 
 .contacts {
@@ -270,6 +276,26 @@ button:active, button:focus {
 
   h3 {
     text-align: center;
+  }
+
+  .menu {
+    font-size: 0.75em;
+    padding: 5px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .map iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .up-button {
+    display: none;
   }
 
   main h1 {
