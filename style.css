@@ -4,7 +4,6 @@
   scroll-behavior: smooth;
 }
 
-
 body {
   font-family: "Philosopher", sans-serif;
   color: black;
@@ -23,7 +22,6 @@ h2 {
   visibility: hidden;
 }
 
-
 article img {
   border-radius: 10px;
 }
@@ -31,7 +29,6 @@ article img {
 .about h3 {
   padding: 5px;
   font-size: 1.7em;
-  
 }
 
 .about h3 span {
@@ -132,17 +129,17 @@ figcaption {
 }
 
 .about article div {
-  padding: 20px;
+  padding: 10px;
 }
 
 .about li article {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
 
-.about li:nth-child(2) article {
+.about li:nth-child(2n) article {
   flex-direction: row-reverse;
 }
 
@@ -163,11 +160,10 @@ figcaption {
   min-width: 200px;
   min-height: 100px;
   border: 1px solid #e5e5e5;
-  box-shadow:  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
-   vertical-align: middle;
-   text-align: center;
-  
+  vertical-align: middle;
+  text-align: center;
 }
 
 .price b {
@@ -176,16 +172,14 @@ figcaption {
   vertical-align: middle;
   font-size: 2.5em;
   font-weight: 700;
-  
 }
 
 .price span {
   font-size: 0.75em;
-  
 }
 
 .price p {
-  color: rgb(204, 6, 48);;
+  color: rgb(204, 6, 48);
 }
 
 .price div:hover {
@@ -227,7 +221,6 @@ footer img:hover {
   opacity: 0.5;
 }
 
-
 /* Кнопка вверх */
 
 .up-button {
@@ -253,14 +246,24 @@ footer img:hover {
   display: inline-block;
 }
 
-button:active, button:focus {
+button:active,
+button:focus {
   outline: none;
 }
 
 /* Медиазапросы */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
+  * {
+    scroll-behavior: smooth;
+  }
 
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   * {
     scroll-behavior: smooth;
   }
@@ -288,12 +291,12 @@ button:active, button:focus {
     max-width: 100%;
     height: auto;
   }
-  
+
   .map iframe {
+    border-radius: 10px;
     max-width: 100%;
     height: auto;
   }
-
 
   .up-button {
     display: none;
@@ -304,7 +307,7 @@ button:active, button:focus {
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
-    }
+  }
 
   .about article {
     flex-direction: column;
@@ -316,7 +319,7 @@ button:active, button:focus {
     flex-direction: column;
   }
 
-  .about li:nth-child(2) article {
+  .about li:nth-child(2n) article {
     flex-direction: column;
   }
 
@@ -328,7 +331,7 @@ button:active, button:focus {
     line-height: 1.5em;
   }
 
-  .contacts div { 
+  .contacts div {
     padding: 10px;
   }
 
@@ -338,8 +341,4 @@ button:active, button:focus {
     line-height: 2em;
     text-align: center;
   }
-
-
-
-  
 }
